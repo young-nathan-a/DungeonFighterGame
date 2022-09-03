@@ -74,7 +74,8 @@ public class Adventure {
                 else if(input.equals("2")) {
                     
                     if(numHealthPots >= 1) {
-
+                        
+                        //if health is less than full
                         if(health < 100) {
                         health += healthPotionHealAmount;
                         numHealthPots --;
@@ -83,9 +84,7 @@ public class Adventure {
                         if(health > 100) {
                             health = 100;
                         }
-                        else {
-                            //do nothing
-                        }
+                            
                         System.out.println("\t> You take a health potion, healing " + healthPotionHealAmount + " points." 
                                         + "\n\t> You now have " + health + " HP."
                                         + "\n\t> You have " + numHealthPots + " potions left. \n");
