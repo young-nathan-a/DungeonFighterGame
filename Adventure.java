@@ -123,7 +123,7 @@ public class Adventure {
                     if(input2.equals("1")){
                         System.out.println("\n\tThe shopkeeper eyes you suspiciousy");
                         
-                        //alms for the poor?
+                        //toss a coin to your witcher?
                         if(goldCoins < 10){
                             System.out.println("\tYou look into your coinbag to see how much you have.");
                             System.out.println("\tA moth flies out...");
